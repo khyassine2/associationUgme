@@ -1,7 +1,20 @@
 .App {
   text-align: center;
-}
 
+}
+.iWchow 
+{
+  color:#18534f !important;
+  background-color: snow !important;
+}
+.vUlQj {
+  background-color: #18534f !important;
+  box-shadow:#226d68 0px 0px 1px 3px !important;
+}
+body {
+  background-color:#ecf8f6;
+  scroll-behavior: smooth;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +40,10 @@
 .App-link {
   color: #61dafb;
 }
+/* * {
+  
+    text-align: justify;
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +52,125 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.section02Content {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  /* inline-size: min-content;
+    overflow-wrap: break-word; */
+    margin: 0 !important;
+    /* overflow: scroll !important; */
+}
+.rec-arrow-right ,.rec-arrow-left
+  {
+    display: none;
+  }
+.logo {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  /* border: 2px solid #333; */
+  /* background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.logo-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.logo-subtext {
+  font-size: 11px;
+  color: #666;
+}
+@media (max-width:350px) {
+  .article1,.section3Content,.section4Content,.section6Content {
+    padding-bottom: 50% !important;
+    /* justify-items: center; */
+  }
+}
+@media (max-width:950px)
+{
+  .menu 
+  {
+    display: block !important;
+  }
+  .nav {
+    display: none;
+  }
+  .sideBar {
+    display:block;
+  }
+}
+@media (min-width:950px)
+{
+  .sideBar {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .head {
+    margin-top: 20% !important;
+  }
+  
+  header {
+    /* background-color: red !important; */
+    /* width: 80% !important; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: start; */
+    /* float: left; */
+  }
+  
+  .eyoHU {
+    display: block !important;
+    text-align: justify;
+  }
+  /* body {
+    width:100% !important;
+  } */
+  .section3 {
+    /* margin-top: 60%; */
+  }
+  .section1 
+  {
+    /* background-color: #61dafb; */
+    /* overflow-x: scroll !important; */
+  }
+  /* .section1> section
+  {
+    background-color: red !important;
+  } */
+  .article1,.section3Content,.section4Content,.section6Content {
+    width: 14% !important;
+    /* padding-top:10% !important; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20% !important;
+  }
+
+  .article1>h4 {
+    /* color:red !important; */
+    font-size: 36pt !important;
+  }
+  /* .MuiBox-root 
+  {
+    background-color: #61dafb !important;
+    max-height: min-content;
+  } */
+}
+
+.div0 {
+  width:300vh !important;
+  justify-content:end !important
+}
+
+.lienNav {
+  color:rgb(0, 0, 0) !important;
+  text-decoration: none;
+  font-weight: bolder;
 }
