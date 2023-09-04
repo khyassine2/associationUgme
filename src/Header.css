@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    
+}
+ul>li {
+    list-style: none;
+    margin-left: 3%;
+}
+ul>li::after {
+    content:'';
+    display:block;
+    width:100%;
+    height:1px;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s;
+}
+ul>li:hover::after {
+    opacity:1;
+}
+ul>li:hover {
+    cursor:pointer;
+}
+ul>li>a {
+    text-decoration: none;
+    color:white;
+}
